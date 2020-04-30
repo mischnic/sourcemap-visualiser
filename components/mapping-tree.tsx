@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact/compat";
 import classNames from "classnames";
 
 import { DecodedMapping } from "../utils/decode-map";

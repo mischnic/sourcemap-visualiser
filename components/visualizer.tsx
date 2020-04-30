@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact/compat";
 import { SourceMapType } from "../types";
 import SourceMap from "./sourcemap";
 

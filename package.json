@@ -2,13 +2,14 @@
   "name": "sourcemap-visualiser",
   "version": "1.0.0",
   "license": "MIT",
-  "module": "lib/index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
   "style": "lib/index.css",
   "app": "dist/index.html",
   "scripts": {
     "start": "parcel website/index.html",
     "build": "parcel build website/index.html --target app",
-    "build-lib": "parcel build components/visualizer.tsx --target module && parcel build style.css --target style"
+    "build-lib": "parcel build components/visualizer.tsx --target module --target main&& parcel build style.css --target style"
   },
   "targets": {
     "app": {},

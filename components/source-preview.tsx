@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact/compat";
 import classNames from "classnames";
 // @ts-ignore
 import colors from "nice-color-palettes/1000";

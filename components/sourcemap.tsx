@@ -1,4 +1,4 @@
-import React from "react";
+import React from "preact/compat";
 
 import { decodeMap } from "../utils/decode-map";
 import { SourceMapType } from "../types";
